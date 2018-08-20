@@ -57,14 +57,14 @@ h1 {
   justify-content: center;
 }
 
-.boxes {
+.projects {
   margin-top: 70px;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
 }
 
-.box {
+.project-tile {
   text-align: center;
   padding: 1.5rem 2rem;
 }
@@ -103,7 +103,7 @@ h1 {
     font-size: 1.3rem;
     justify-content: center;
   }
-  .boxes {
+  .projects {
     margin-top: 40px;
     /* margin-left: -80px; */
     margin-left: 0px;
@@ -114,7 +114,7 @@ h1 {
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   }
-  .box {
+  .project-tile {
     text-align: center;
     /* padding: 1.5rem 2rem; */
     margin-left: 0px;
